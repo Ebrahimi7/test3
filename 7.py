@@ -1,6 +1,8 @@
 import turtle
 import random
 
+###################################################3
+
 t = turtle.Turtle()
 # def star():
 #     t.speed(0)
@@ -126,5 +128,6 @@ def rose():
         x = r * math.cos(math.radians(angle))
         y = r * math.sin(math.radians(angle))
         t.goto(x, y)
+
 
 rose()
